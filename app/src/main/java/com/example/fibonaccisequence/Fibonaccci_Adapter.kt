@@ -9,6 +9,7 @@ import com.example.fibonaccisequence.R
 
 class FibonacciAdapter(private val numbers: List<Int>) :
     RecyclerView.Adapter<FibonacciAdapter.ViewHolder>() {
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.fibonacciadapter, parent, false)
